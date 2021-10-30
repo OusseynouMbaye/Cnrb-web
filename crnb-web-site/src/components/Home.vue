@@ -1,16 +1,18 @@
 <template>
-    <div class="">
+<div>
+    <p>allo
 
-    </div>
+    </p>
+</div>
 </template>
 
 <script>
 export default {
-    data(){
-
-    }
+    name: "Home",
+    
 }
 </script>
 <style scoped>
+
 
 </style>

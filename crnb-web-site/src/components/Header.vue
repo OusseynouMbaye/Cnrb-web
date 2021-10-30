@@ -1,23 +1,26 @@
 <template>
- <header>
-     <ul>
-         <li>Home</li>
-         <li>Club</li>
-         <li>Competition</li>
-     </ul>
-     
- </header>
+  <div>
+    <div>
+      <img src="../assets/logoCnrb.jpg" />
+    </div>
+    <div>
+      <header>
+       Home
+          Club
+          Competition
+        
+      </header>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "Header",
-    
-}
+  name: "Header",
+};
 </script>
 <style scoped>
-
-header{
-    display: flex;
+header {
+  /* display: flex; */
 }
 </style>

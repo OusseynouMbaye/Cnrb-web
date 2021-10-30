@@ -1,11 +1,12 @@
 <template>
   <div>
     <Header />
-    <div class="container">
+    <router-view />
+
+    <!--<div class="container">
       <h1>Home page</h1>
-    </div>
+    </div> -->
   </div>
-  
 </template>
 
 <script>
@@ -28,7 +29,7 @@ export default {
 body {
   font-family: "Poppins", sans-serif;
 }
-.container {
+/* .container {
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
@@ -59,5 +60,5 @@ body {
 .btn-block {
   display: block;
   width: 100%;
-}
+} */
 </style>
