@@ -2,19 +2,18 @@
   <div>
     <Header />
     <router-view />
-
-    <!--<div class="container">
-      <h1>Home page</h1>
-    </div> -->
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
     Header,
+    Footer,
   },
 };
 </script>
@@ -25,6 +24,7 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 body {
   font-family: "Poppins", sans-serif;

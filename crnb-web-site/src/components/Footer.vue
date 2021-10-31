@@ -2,16 +2,16 @@
   <div class="nav">
     <img src="../assets/logoCnrb.jpg"  />
 
-    <a href="#">Home</a>
-    <a href="#">Club</a>
-    <a href="#">Competition</a>
-    <h3>login with logo</h3>
+    <a href="#">nous contacter</a>
+    <a href="#">facebok icon</a>
+    <a href="#">Insta club</a>
+  
   </div>
 </template>
 
 <script>
 export default {
-  name: "Header",
+  name: "Footer",
 };
 </script>
 <style scoped>
