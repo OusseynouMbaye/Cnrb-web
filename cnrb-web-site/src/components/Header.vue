@@ -2,8 +2,8 @@
   <div class="nav">
     <img src="../assets/logoCnrb.jpg"  />
 
-    <a href="#">Home</a>
-    <a href="#">Club</a>
+    <a href="/">Home</a>
+    <a href="/Club">Club</a>
     <a href="#">Competition</a>
     <h3>login with logo</h3>
   </div>
